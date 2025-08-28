@@ -1,6 +1,4 @@
-<img width="566" height="635" alt="image" src="https://github.com/user-attachments/assets/e42d52b5-d181-4d8c-a94f-48135fd9c2fe" /># CS50P – Introduction to Programming with Python
-
-This repository contains my solutions and final project from [Harvard's CS50P: Introduction to Programming with Python](https://cs50.harvard.edu/python/). The aim was to practice python fundementals and problem solving. This is both a personal learning log and a showcase of my Python skills demonstrating what I have learned during this course.
+This repository contains my solutions and final project from [Harvard's CS50P: Introduction to Programming with Python](https://cs50.harvard.edu/python/). The aim was to practice python fundamentals and problem solving. This is both a personal learning log and a showcase of my Python skills demonstrating what I have learned during this course.
 
 ## Contents
 - **Problem Set 0 — Functions & Variables**  
