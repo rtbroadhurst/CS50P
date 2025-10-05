@@ -11,8 +11,9 @@ def main():
 
 # converts time input formatted as #:## or ##:## into a float e.g. 9:30 becomes 9.5
 def convert(time):
-   time = time.replace(":", ".") 
-   return float(time)
+   hours, minutes = time.split(":")
+   time = float(hours) + (float(minutes) / 60)
+   return time
 
 
 if __name__ == "__main__":
