@@ -1,5 +1,5 @@
 # allows the user to place an order prompting for items line by line, until the user enters control d
-# in which case the total cost is outputted
+# after each input the total cost is outputted
 
 menu = {
     "Baja Taco": 4.25,
