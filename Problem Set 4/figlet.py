@@ -6,25 +6,26 @@ import sys
 import random
 from pyfiglet import Figlet
 
-figlet = Figlet()               
-font_list = figlet.getFonts()  
+figlet = Figlet()
+font_list = figlet.getFonts()
 
 def main():
-    terminal_argument = sys.argv
-    if len(terminal_argument) == 1:
-        user_input = input("Enter text: ") # takes in a user input to be displayed
-        figlet.setFont(font=(random.choice(font_list))) # chises a random font to display it in from the list of fonts
-        print(figlet.renderText(user_input)) # outputs the text using figlet
+    args = sys.argv
 
-    elif len(terminal_argument) == 3:
-        user_input = input("Enter text: ")
+    # Choose font (random or user selected)
+    if len(args) == 1:
+        figlet.setFont(font=random.choice(font_list))
+    elif len(args) == 3 and args[1] in ["-f", "--font"]:
+        if args[2] in font_list:
+            figlet.setFont(font=args[2])
+        else:
+            sys.exit("Font is not in list")
     else:
-        print("invalid argument")
+        sys.exit("Invalid argument")
 
-
-
-
+    # Get input text and render it with figlet
+    user_input = input("Enter text: ")
+    print(figlet.renderText(user_input))
 
 if __name__ == "__main__":
     main()
-    

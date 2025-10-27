@@ -6,7 +6,7 @@
 import requests
 import sys
 
-api_key = "ENTER YOUR API KEY" # replace with your own api key
+api_key = "ENTER YOUR API KEY" # replace with your own api
 
 
 def get_value(num): # gets the value of one biction and returns that times the number the user selected
