@@ -1,3 +1,5 @@
+**CS50P Certificate:** [View certificate](https://cs50.harvard.edu/certificates/65d0ffe6-281e-46b1-b691-8855e0d1e03e)
+
 This repository contains my solutions and final project from [Harvard's CS50P: Introduction to Programming with Python](https://cs50.harvard.edu/python/). The aim was to practice Python fundamentals and problem solving. It serves as both a personal learning log and a showcase of the Python skills developed during the course.
 
 ## Contents
