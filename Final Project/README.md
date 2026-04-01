@@ -11,7 +11,7 @@ It allows the user to:
 
 ## Features
 - Predefined habits stored in habits.csv
-- Logs are stored persistently in `logs.csv
+- Logs are stored persistently in logs.csv
 - Uses argparse for the command line interface
 - Basic testing using pytest
 
